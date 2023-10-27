@@ -1,0 +1,42 @@
+.customer-content-main{
+    display: flex;
+    flex-wrap: wrap;
+width: 507px;
+padding: 22px 30px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #FFF;
+text-align: left;
+}
+.customer-main {
+    gap: 20px;
+    justify-content: center;
+}
+.image-content-customer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.opinion-main {
+    background: #f4f3f1;
+    padding-bottom: 27px;
+}
+
+@media (max-width : 927px){
+    .customer-main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .customer-content-main{
+        display: inline-flex;
+        padding: 15px 15px 15px 42px;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0px 0px 0px 40px;
+    }
+}

@@ -1,0 +1,104 @@
+
+.about-lenovo {
+    align-items: flex-start;
+    display: none;
+    height: 49px;
+}
+@media (min-width: 1130px) {
+
+    .about-lenovo {
+       display: flex;
+    }
+
+   
+}
+.about-left {
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 21px;
+flex-grow: 1;
+flex-basis: 62%;
+margin-left: 20%;
+margin-right: 20%;
+
+}
+.about-h6{
+    color: var(--accent, #EDB86F);
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.about-h4{
+    color: var(--2, #092C27);
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.about-p{
+    color: #525755;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.about-image{
+    width: 294px;
+    height: 416px;
+    margin-bottom: 20px;
+
+}
+.about-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.about-mainbar{
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #f4f3f1;
+    padding-top: 34px;
+  }
+  .about-flex-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+.about-button{
+    display: flex;
+    width: max-content;
+height: 49px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 1px solid var(--2, #092C27);
+font-size: 16px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+
+    .about-p {
+        font-size: 14px;
+
+        /* Example style */
+    }
+    .about-h4{
+        font-size: 36px;
+    }
+    
+
+    /* Add more styles as needed */
+}
+@media  (max-width: 1000px){
+
+    .about-flex-sub{
+        flex-direction: column;
+    }
+
+}
+    

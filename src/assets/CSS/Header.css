@@ -1,0 +1,38 @@
+.header-bar {
+    display: flex;
+     flex-grow: 1;
+     flex-basis: 20%;
+}
+.side-header{
+    flex-basis: 38%;
+    flex-grow: 1;
+}
+.header-content{
+    gap: 56px;
+}
+.appointment-button{
+    border: none;
+    background: var(--accent, #EDB86F);
+    display: flex;
+    padding: 10px 15px;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+.header-mainbar{
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #F0EBDF;
+}
+.font-details{
+    color: #072C27;
+    /* font-family: Open Sans; */
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 700;
+    line-height: normal;
+}
+.hamburgerIcon{
+    height: 39px;
+    width: 30px;
+}

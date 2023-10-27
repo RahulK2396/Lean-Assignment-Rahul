@@ -1,0 +1,27 @@
+.blog-image{
+    width: 387px;
+height: 303px;
+}
+.blog-content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+}
+.blog-lower {
+    width: 345px;
+    text-align: left;
+}
+.blog-content-main {
+    gap: 16px;
+}
+
+@media (max-width:1000px){
+    .blog-image{
+        width: 293px;
+        height: 182px;
+    }
+    .blog-lower{
+        width: 297px;
+    }
+}

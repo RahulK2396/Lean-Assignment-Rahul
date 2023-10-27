@@ -1,0 +1,23 @@
+.footer-main{
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #f4f3f1;
+    padding-top: 24px;
+   gap: 20px;
+}
+.footer-flex ,
+.specialties-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 94px;
+}
+
+@media (max-width : 764px){
+    .footer-flex{
+        flex-direction: column;
+    }
+    .footer-sm-remove{
+        display: none;
+    }
+}

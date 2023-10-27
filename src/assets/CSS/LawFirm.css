@@ -1,0 +1,73 @@
+.law-main {
+    background: var(--2, #092C27);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.law-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.law-font-white {
+    color: #FFF;
+}
+.law-font-yellow {
+    color: var(--accent, #EDB86F);
+}
+.law-font-black{
+    color: var(--2, #092C27);
+}
+.law-left,
+.law-right {
+    width: 25%;
+}
+.law-center {
+    border-left: 1px solid white;
+    height: 458px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.law-bottom {
+    border-bottom: 1px solid white;
+    /* height: 458px; */
+}
+.law-sub-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .law-bottom{
+        display: none;
+    }
+    .law-center{
+        display: none;
+    }
+    .law-main{
+        display: flex;
+        flex-direction: column !important;
+        /* align-items: flex-start !important; */
+        gap: 23px;
+    }
+    .law-left,
+.law-right,
+.law-right-first {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+    
+
+    /* Add more styles as needed */
+}
+
